@@ -1,0 +1,6 @@
+framework module Pods_PharmEasyDemoTests {
+  umbrella header "Pods-PharmEasyDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BC0B8F621D14E3B008FC5A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0B8F521D14E3B008FC5A7 /* AppDelegate.swift */; };
+		4BC0B8FB21D14E3B008FC5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC0B8F921D14E3B008FC5A7 /* Main.storyboard */; };
+		4BC0B8FD21D14E3D008FC5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC0B8FC21D14E3D008FC5A7 /* Assets.xcassets */; };
+		4BC0B90021D14E3D008FC5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC0B8FE21D14E3D008FC5A7 /* LaunchScreen.storyboard */; };
+		4BC0B90B21D14E3D008FC5A7 /* PharmEasyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0B90A21D14E3D008FC5A7 /* PharmEasyDemoTests.swift */; };
+		4BC0B91621D14E3D008FC5A7 /* PharmEasyDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0B91521D14E3D008FC5A7 /* PharmEasyDemoUITests.swift */; };
+		4BC0B92721D14F01008FC5A7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0B92621D14F01008FC5A7 /* HomeVC.swift */; };
+		4BC0B92921D14FB0008FC5A7 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0B92821D14FB0008FC5A7 /* DetailVC.swift */; };
+		4BC0B92D21D155F4008FC5A7 /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0B92B21D155F4008FC5A7 /* UserListCell.swift */; };
+		4BC0B92E21D155F4008FC5A7 /* UserListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BC0B92C21D155F4008FC5A7 /* UserListCell.xib */; };
+		4BC0B93021D159C1008FC5A7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0B92F21D159C1008FC5A7 /* User.swift */; };
+		4BC0B93321D15D60008FC5A7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0B93221D15D60008FC5A7 /* Constant.swift */; };
+		4BC0B93621D15EEE008FC5A7 /* WebServiceConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0B93521D15EEE008FC5A7 /* WebServiceConstant.swift */; };
+		4BC0B93821D160C1008FC5A7 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0B93721D160C1008FC5A7 /* WebService.swift */; };
+		5B620BFF88AA836D2CD15773 /* Pods_PharmEasyDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BB083E1CA3A55CE9043290 /* Pods_PharmEasyDemoUITests.framework */; };
+		976D0C788E8D7E4ED04ADBB9 /* Pods_PharmEasyDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001F7ABB382E07CA3BDDA736 /* Pods_PharmEasyDemoTests.framework */; };
+		A935C7EFB586EA9B5B84F4DE /* Pods_PharmEasyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8CC8171E394C0F4DC799E9 /* Pods_PharmEasyDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BC0B90721D14E3D008FC5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BC0B8EA21D14E3B008FC5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC0B8F121D14E3B008FC5A7;
+			remoteInfo = PharmEasyDemo;
+		};
+		4BC0B91221D14E3D008FC5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BC0B8EA21D14E3B008FC5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC0B8F121D14E3B008FC5A7;
+			remoteInfo = PharmEasyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001F7ABB382E07CA3BDDA736 /* Pods_PharmEasyDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PharmEasyDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BCA1D4F26E1FD6D827E43C /* Pods-PharmEasyDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmEasyDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PharmEasyDemoUITests/Pods-PharmEasyDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E1E125D296B30EF68EE37B1 /* Pods-PharmEasyDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmEasyDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PharmEasyDemoUITests/Pods-PharmEasyDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E0F44612BE56A7435FA25DE /* Pods-PharmEasyDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmEasyDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PharmEasyDemoTests/Pods-PharmEasyDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F8CC8171E394C0F4DC799E9 /* Pods_PharmEasyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PharmEasyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B42A814364867330EBC0E55 /* Pods-PharmEasyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmEasyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PharmEasyDemo/Pods-PharmEasyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4BC0B8F221D14E3B008FC5A7 /* PharmEasyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PharmEasyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC0B8F521D14E3B008FC5A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BC0B8FA21D14E3B008FC5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BC0B8FC21D14E3D008FC5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BC0B8FF21D14E3D008FC5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BC0B90121D14E3D008FC5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC0B90621D14E3D008FC5A7 /* PharmEasyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharmEasyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC0B90A21D14E3D008FC5A7 /* PharmEasyDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmEasyDemoTests.swift; sourceTree = "<group>"; };
+		4BC0B90C21D14E3D008FC5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC0B91121D14E3D008FC5A7 /* PharmEasyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharmEasyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC0B91521D14E3D008FC5A7 /* PharmEasyDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmEasyDemoUITests.swift; sourceTree = "<group>"; };
+		4BC0B91721D14E3D008FC5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC0B92621D14F01008FC5A7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		4BC0B92821D14FB0008FC5A7 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		4BC0B92B21D155F4008FC5A7 /* UserListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
+		4BC0B92C21D155F4008FC5A7 /* UserListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListCell.xib; sourceTree = "<group>"; };
+		4BC0B92F21D159C1008FC5A7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4BC0B93221D15D60008FC5A7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4BC0B93521D15EEE008FC5A7 /* WebServiceConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceConstant.swift; sourceTree = "<group>"; };
+		4BC0B93721D160C1008FC5A7 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		51A300F936FBC8B4C644550F /* Pods-PharmEasyDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmEasyDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PharmEasyDemoTests/Pods-PharmEasyDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B68C45A5335705848277931 /* Pods-PharmEasyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmEasyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PharmEasyDemo/Pods-PharmEasyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A2BB083E1CA3A55CE9043290 /* Pods_PharmEasyDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PharmEasyDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BC0B8EF21D14E3B008FC5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A935C7EFB586EA9B5B84F4DE /* Pods_PharmEasyDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC0B90321D14E3D008FC5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976D0C788E8D7E4ED04ADBB9 /* Pods_PharmEasyDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC0B90E21D14E3D008FC5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B620BFF88AA836D2CD15773 /* Pods_PharmEasyDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4BDD2BAF0381CF1B7AD215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B42A814364867330EBC0E55 /* Pods-PharmEasyDemo.debug.xcconfig */,
+				6B68C45A5335705848277931 /* Pods-PharmEasyDemo.release.xcconfig */,
+				51A300F936FBC8B4C644550F /* Pods-PharmEasyDemoTests.debug.xcconfig */,
+				2E0F44612BE56A7435FA25DE /* Pods-PharmEasyDemoTests.release.xcconfig */,
+				1E1E125D296B30EF68EE37B1 /* Pods-PharmEasyDemoUITests.debug.xcconfig */,
+				14BCA1D4F26E1FD6D827E43C /* Pods-PharmEasyDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BC0B8E921D14E3B008FC5A7 = {
+			isa = PBXGroup;
+			children = (
+				4BC0B8F421D14E3B008FC5A7 /* PharmEasyDemo */,
+				4BC0B90921D14E3D008FC5A7 /* PharmEasyDemoTests */,
+				4BC0B91421D14E3D008FC5A7 /* PharmEasyDemoUITests */,
+				4BC0B8F321D14E3B008FC5A7 /* Products */,
+				1F4BDD2BAF0381CF1B7AD215 /* Pods */,
+				C10F8F632CB2BCB933850359 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BC0B8F321D14E3B008FC5A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0B8F221D14E3B008FC5A7 /* PharmEasyDemo.app */,
+				4BC0B90621D14E3D008FC5A7 /* PharmEasyDemoTests.xctest */,
+				4BC0B91121D14E3D008FC5A7 /* PharmEasyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BC0B8F421D14E3B008FC5A7 /* PharmEasyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0B93121D15D30008FC5A7 /* Utility */,
+				4BC0B92321D14EE2008FC5A7 /* Controller */,
+				4BC0B92421D14EE2008FC5A7 /* Model */,
+				4BC0B92521D14EE2008FC5A7 /* View */,
+				4BC0B8F521D14E3B008FC5A7 /* AppDelegate.swift */,
+				4BC0B8F921D14E3B008FC5A7 /* Main.storyboard */,
+				4BC0B8FC21D14E3D008FC5A7 /* Assets.xcassets */,
+				4BC0B8FE21D14E3D008FC5A7 /* LaunchScreen.storyboard */,
+				4BC0B90121D14E3D008FC5A7 /* Info.plist */,
+			);
+			path = PharmEasyDemo;
+			sourceTree = "<group>";
+		};
+		4BC0B90921D14E3D008FC5A7 /* PharmEasyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0B90A21D14E3D008FC5A7 /* PharmEasyDemoTests.swift */,
+				4BC0B90C21D14E3D008FC5A7 /* Info.plist */,
+			);
+			path = PharmEasyDemoTests;
+			sourceTree = "<group>";
+		};
+		4BC0B91421D14E3D008FC5A7 /* PharmEasyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0B91521D14E3D008FC5A7 /* PharmEasyDemoUITests.swift */,
+				4BC0B91721D14E3D008FC5A7 /* Info.plist */,
+			);
+			path = PharmEasyDemoUITests;
+			sourceTree = "<group>";
+		};
+		4BC0B92321D14EE2008FC5A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0B92621D14F01008FC5A7 /* HomeVC.swift */,
+				4BC0B92821D14FB0008FC5A7 /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BC0B92421D14EE2008FC5A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0B92F21D159C1008FC5A7 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BC0B92521D14EE2008FC5A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0B92A21D1509E008FC5A7 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BC0B92A21D1509E008FC5A7 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0B92B21D155F4008FC5A7 /* UserListCell.swift */,
+				4BC0B92C21D155F4008FC5A7 /* UserListCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		4BC0B93121D15D30008FC5A7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0B93421D15EC8008FC5A7 /* WebService */,
+				4BC0B93221D15D60008FC5A7 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4BC0B93421D15EC8008FC5A7 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0B93521D15EEE008FC5A7 /* WebServiceConstant.swift */,
+				4BC0B93721D160C1008FC5A7 /* WebService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		C10F8F632CB2BCB933850359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8CC8171E394C0F4DC799E9 /* Pods_PharmEasyDemo.framework */,
+				001F7ABB382E07CA3BDDA736 /* Pods_PharmEasyDemoTests.framework */,
+				A2BB083E1CA3A55CE9043290 /* Pods_PharmEasyDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BC0B8F121D14E3B008FC5A7 /* PharmEasyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC0B91A21D14E3D008FC5A7 /* Build configuration list for PBXNativeTarget "PharmEasyDemo" */;
+			buildPhases = (
+				0FEBDAB2C2C71BC6A97B1CD5 /* [CP] Check Pods Manifest.lock */,
+				4BC0B8EE21D14E3B008FC5A7 /* Sources */,
+				4BC0B8EF21D14E3B008FC5A7 /* Frameworks */,
+				4BC0B8F021D14E3B008FC5A7 /* Resources */,
+				34B9DFBD655080DA9EF9A7CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PharmEasyDemo;
+			productName = PharmEasyDemo;
+			productReference = 4BC0B8F221D14E3B008FC5A7 /* PharmEasyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BC0B90521D14E3D008FC5A7 /* PharmEasyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC0B91D21D14E3D008FC5A7 /* Build configuration list for PBXNativeTarget "PharmEasyDemoTests" */;
+			buildPhases = (
+				8C9382BC99CE2AB54AA09289 /* [CP] Check Pods Manifest.lock */,
+				4BC0B90221D14E3D008FC5A7 /* Sources */,
+				4BC0B90321D14E3D008FC5A7 /* Frameworks */,
+				4BC0B90421D14E3D008FC5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BC0B90821D14E3D008FC5A7 /* PBXTargetDependency */,
+			);
+			name = PharmEasyDemoTests;
+			productName = PharmEasyDemoTests;
+			productReference = 4BC0B90621D14E3D008FC5A7 /* PharmEasyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BC0B91021D14E3D008FC5A7 /* PharmEasyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC0B92021D14E3D008FC5A7 /* Build configuration list for PBXNativeTarget "PharmEasyDemoUITests" */;
+			buildPhases = (
+				C6BE22BAF4D3E3A7284CFCA5 /* [CP] Check Pods Manifest.lock */,
+				4BC0B90D21D14E3D008FC5A7 /* Sources */,
+				4BC0B90E21D14E3D008FC5A7 /* Frameworks */,
+				4BC0B90F21D14E3D008FC5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BC0B91321D14E3D008FC5A7 /* PBXTargetDependency */,
+			);
+			name = PharmEasyDemoUITests;
+			productName = PharmEasyDemoUITests;
+			productReference = 4BC0B91121D14E3D008FC5A7 /* PharmEasyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BC0B8EA21D14E3B008FC5A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Achal Gandhi";
+				TargetAttributes = {
+					4BC0B8F121D14E3B008FC5A7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4BC0B90521D14E3D008FC5A7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4BC0B8F121D14E3B008FC5A7;
+					};
+					4BC0B91021D14E3D008FC5A7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4BC0B8F121D14E3B008FC5A7;
+					};
+				};
+			};
+			buildConfigurationList = 4BC0B8ED21D14E3B008FC5A7 /* Build configuration list for PBXProject "PharmEasyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BC0B8E921D14E3B008FC5A7;
+			productRefGroup = 4BC0B8F321D14E3B008FC5A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BC0B8F121D14E3B008FC5A7 /* PharmEasyDemo */,
+				4BC0B90521D14E3D008FC5A7 /* PharmEasyDemoTests */,
+				4BC0B91021D14E3D008FC5A7 /* PharmEasyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BC0B8F021D14E3B008FC5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC0B92E21D155F4008FC5A7 /* UserListCell.xib in Resources */,
+				4BC0B90021D14E3D008FC5A7 /* LaunchScreen.storyboard in Resources */,
+				4BC0B8FD21D14E3D008FC5A7 /* Assets.xcassets in Resources */,
+				4BC0B8FB21D14E3B008FC5A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC0B90421D14E3D008FC5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC0B90F21D14E3D008FC5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FEBDAB2C2C71BC6A97B1CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PharmEasyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34B9DFBD655080DA9EF9A7CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PharmEasyDemo/Pods-PharmEasyDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PharmEasyDemo/Pods-PharmEasyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C9382BC99CE2AB54AA09289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PharmEasyDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6BE22BAF4D3E3A7284CFCA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PharmEasyDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BC0B8EE21D14E3B008FC5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC0B92D21D155F4008FC5A7 /* UserListCell.swift in Sources */,
+				4BC0B8F621D14E3B008FC5A7 /* AppDelegate.swift in Sources */,
+				4BC0B93821D160C1008FC5A7 /* WebService.swift in Sources */,
+				4BC0B92721D14F01008FC5A7 /* HomeVC.swift in Sources */,
+				4BC0B93021D159C1008FC5A7 /* User.swift in Sources */,
+				4BC0B92921D14FB0008FC5A7 /* DetailVC.swift in Sources */,
+				4BC0B93321D15D60008FC5A7 /* Constant.swift in Sources */,
+				4BC0B93621D15EEE008FC5A7 /* WebServiceConstant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC0B90221D14E3D008FC5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC0B90B21D14E3D008FC5A7 /* PharmEasyDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC0B90D21D14E3D008FC5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC0B91621D14E3D008FC5A7 /* PharmEasyDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BC0B90821D14E3D008FC5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BC0B8F121D14E3B008FC5A7 /* PharmEasyDemo */;
+			targetProxy = 4BC0B90721D14E3D008FC5A7 /* PBXContainerItemProxy */;
+		};
+		4BC0B91321D14E3D008FC5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BC0B8F121D14E3B008FC5A7 /* PharmEasyDemo */;
+			targetProxy = 4BC0B91221D14E3D008FC5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BC0B8F921D14E3B008FC5A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC0B8FA21D14E3B008FC5A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BC0B8FE21D14E3D008FC5A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC0B8FF21D14E3D008FC5A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BC0B91821D14E3D008FC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BC0B91921D14E3D008FC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC0B91B21D14E3D008FC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B42A814364867330EBC0E55 /* Pods-PharmEasyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmEasyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PharmEasy.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BC0B91C21D14E3D008FC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B68C45A5335705848277931 /* Pods-PharmEasyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmEasyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PharmEasy.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BC0B91E21D14E3D008FC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51A300F936FBC8B4C644550F /* Pods-PharmEasyDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmEasyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PharmEasy.demo.PharmEasyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PharmEasyDemo.app/PharmEasyDemo";
+			};
+			name = Debug;
+		};
+		4BC0B91F21D14E3D008FC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0F44612BE56A7435FA25DE /* Pods-PharmEasyDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmEasyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PharmEasy.demo.PharmEasyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PharmEasyDemo.app/PharmEasyDemo";
+			};
+			name = Release;
+		};
+		4BC0B92121D14E3D008FC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1E125D296B30EF68EE37B1 /* Pods-PharmEasyDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmEasyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PharmEasy.demo.PharmEasyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PharmEasyDemo;
+			};
+			name = Debug;
+		};
+		4BC0B92221D14E3D008FC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BCA1D4F26E1FD6D827E43C /* Pods-PharmEasyDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PharmEasyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PharmEasy.demo.PharmEasyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PharmEasyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BC0B8ED21D14E3B008FC5A7 /* Build configuration list for PBXProject "PharmEasyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC0B91821D14E3D008FC5A7 /* Debug */,
+				4BC0B91921D14E3D008FC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC0B91A21D14E3D008FC5A7 /* Build configuration list for PBXNativeTarget "PharmEasyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC0B91B21D14E3D008FC5A7 /* Debug */,
+				4BC0B91C21D14E3D008FC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC0B91D21D14E3D008FC5A7 /* Build configuration list for PBXNativeTarget "PharmEasyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC0B91E21D14E3D008FC5A7 /* Debug */,
+				4BC0B91F21D14E3D008FC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC0B92021D14E3D008FC5A7 /* Build configuration list for PBXNativeTarget "PharmEasyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC0B92121D14E3D008FC5A7 /* Debug */,
+				4BC0B92221D14E3D008FC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BC0B8EA21D14E3B008FC5A7 /* Project object */;
+}
